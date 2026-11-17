@@ -23,7 +23,9 @@ Notebooks use only methods from the [course coursebook](https://lizhen0909.githu
 
 ## Getting the data
 
-Data files are too large for GitHub, so `data/` is git-ignored. Each member downloads them locally into `data/raw/`:
+**Step-by-step instructions with download links: [data/README.md](data/README.md).**
+
+Raw data files are too large for GitHub, so `data/raw/` is git-ignored. Each member downloads them locally into `data/raw/`:
 
 1. **Divvy trips, September 2026:** download https://divvy-tripdata.s3.amazonaws.com/202609-divvy-tripdata.zip and unzip it.
 2. **Weather:** download https://data.meteostat.net/daily/2026/72534.csv.gz (Chicago Midway) and save it as `meteostat_daily_2026_midway_72534.csv.gz`.
