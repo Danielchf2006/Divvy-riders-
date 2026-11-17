@@ -30,6 +30,9 @@ Data files are too large for GitHub, so `data/` is git-ignored. Each member down
 
 Then run `notebooks/01_data_cleaning.ipynb` top to bottom to create the cleaned files in `data/processed/`.
 
+**Shortcut:** the small cleaned tables are already in the repo: `station_day.csv`, `station_day_by_rider.csv`, `weather_daily.csv`, and `exclusions.csv`.
+If your analysis only needs those, you can skip the download. `trips_clean.csv` (167 MB, needed for route analysis) and `station_events.csv` (139 MB) are over GitHub's 100 MB limit, so you have to create them by running notebook 01.
+
 ## Who did what
 
 Preparation is split by owner, and all four of us validate it together:

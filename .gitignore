@@ -16,3 +16,10 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Small cleaned tables are shared in the repo so teammates can start without rerunning notebook 01.
+# trips_clean.csv and station_events.csv stay local (over GitHub's 100 MB limit).
+!data/processed/station_day.csv
+!data/processed/station_day_by_rider.csv
+!data/processed/weather_daily.csv
+!data/processed/exclusions.csv

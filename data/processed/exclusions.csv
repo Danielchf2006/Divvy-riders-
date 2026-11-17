@@ -1,0 +1,5 @@
+step,removed,remaining
+Raw rides,0,770562
+Near-duplicate (second copy),4,770558
+Duration < 60 s,18610,751948
+Duration > 24 h,633,751315
