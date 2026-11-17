@@ -1,0 +1,18 @@
+# Data files are too large for GitHub; each member downloads them locally
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.pyc
+
+# Quarto render output
+*_files/
+.quarto/
+
+# OS
+.DS_Store
