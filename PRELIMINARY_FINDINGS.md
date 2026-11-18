@@ -51,4 +51,4 @@ Weekend morning deficits are barely made up later in the day, which suggests wee
 ## Still to do
 
 - **Daniel (rider contributions), Surya (route contributions), Mimi (weather and day type):** analyses not started yet. The cleaned tables they need are produced by notebook 01: `station_day_by_rider.csv`, `trips_clean.csv`, and `station_day.csv` with weather joined.
-- **Progress check-in, Mon Nov 23 by 1:50 pm:** show the cleaned data, one or two early plots, what remains, and questions for our mentor.
+- **Progress check-in, Mon Nov 23 by 1:50 pm:** `checkin/project_checkin.ipynb` is filled in for the team overview, data cleaning, Sean's question, a proposed plan, and mentor questions. **Daniel, Surya, and Mimi each add one early result in their Question section,** and the team picks a presentation session.

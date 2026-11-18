@@ -12,11 +12,12 @@ See [proposal/proposal.ipynb](proposal/proposal.ipynb) for each member's questio
 | Path | What it holds |
 |---|---|
 | `proposal/` | Submitted project proposal |
+| `checkin/project_checkin.ipynb` | Progress check-in (due Mon Nov 23, 1:50 pm): **each member fills in their own Question section** |
 | `notebooks/01_data_cleaning.ipynb` | Shared cleaning: run this first |
 | `notebooks/02_station_recovery_sean.ipynb` | Sean: station recovery |
 | `notebooks/03_…`, `04_…`, `05_…` | Daniel, Surya, Mimi: to be added |
 | `data/raw/` | Downloaded source files (not committed) |
-| `data/processed/` | Cleaned outputs from notebook 01 (not committed) |
+| `data/processed/` | Cleaned outputs from notebook 01 (small tables committed; `trips_clean.csv` and `station_events.csv` stay local) |
 | `figures/` | Saved plots and tables for the report and slides, prefixed by owner |
 
 Notebooks use only methods from the [course coursebook](https://lizhen0909.github.io/stat303-1-sec20-coursebook/), and each one follows the cleaning notebook's style.
