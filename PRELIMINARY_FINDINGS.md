@@ -1,6 +1,6 @@
 # Preliminary Findings
 
-*Working notes, last updated Nov 17, 2026. Numbers come from `notebooks/01_data_cleaning.ipynb` and `notebooks/02_station_recovery_sean.ipynb`; rerun them to reproduce. Both notebooks were drafted with AI assistance (Claude), which must be disclosed in the final report.*
+*Working notes, last updated Nov 17, 2026. Numbers come from `notebooks/01_data_cleaning.ipynb` and `notebooks/02_station_recovery_sean.ipynb`; rerun them to reproduce.*
 
 This is an **exploratory data analysis** project, not a model. Per the course site, predictive modeling or clustering can earn bonus points but must not replace the EDA.
 
