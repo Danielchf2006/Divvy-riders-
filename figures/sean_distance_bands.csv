@@ -1,0 +1,5 @@
+distance,stations,recurring_stations,share_recurring,mean_morning_net_dep,full_recovery_rate,pooled_recovery
+Under 2 km,164,30,0.183,-3.317,0.308,0.386
+2–5 km,203,89,0.438,1.54,0.411,0.726
+5–10 km,445,110,0.247,0.682,0.387,0.584
+10+ km,711,35,0.049,0.038,0.444,0.626

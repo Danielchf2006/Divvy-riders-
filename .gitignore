@@ -23,6 +23,7 @@ __pycache__/
 !data/processed/station_day_by_rider.csv
 !data/processed/weather_daily.csv
 !data/processed/exclusions.csv
+!data/processed/stations.csv
 
 # Rendered check-in HTML is regenerated before submitting; only the notebook is tracked
 checkin/*.html

@@ -1,6 +1,6 @@
 # Getting the Data
 
-`station_day.csv`, `station_day_by_rider.csv`, `weather_daily.csv`, and `exclusions.csv` are already in `data/processed/`. If that's all you need, just `git pull`.
+`station_day.csv`, `station_day_by_rider.csv`, `weather_daily.csv`, `stations.csv`, and `exclusions.csv` are already in `data/processed/`. If that's all you need, just `git pull`.
 
 `trips_clean.csv` and `station_events.csv` are too big for GitHub (over 100 MB), so you need to make them yourself:
 

@@ -36,6 +36,9 @@ Weekend morning deficits are barely made up later in the day, so weekend riding 
    ![Cumulative hourly flow](figures/sean_cumulative_hourly_flow.png)
 4. The largest daily losses are at Clark St & Elm St (about 17 bikes a day), Indiana Ave & Roosevelt Rd (13), and Clark St & Lincoln Ave (12). Loomis St & Lexington St, Pine Grove Ave & Irving Park Rd, and Broadway & Cornelia Ave lose bikes almost every weekday and recover less than a third of the loss. Full table: `figures/sean_top_deficit_stations.csv`.
 5. Sensitivity checks (`figures/sean_sensitivity.csv`): counting only deficits of at least 5 bikes lowers full recovery to 28% but barely changes pooled recovery. Extending the recovery window to midnight raises pooled recovery to 77%, but most deficit days still don't fully recover. Changing the morning window (7–9 a.m. or 6–11 a.m.) doesn't change the conclusion.
+6. Location matters. Recurring deficits are concentrated 2–5 km from the Loop (44% of stations there, vs 18% within 2 km and 5% beyond 10 km), mostly to the north and northwest, with a smaller group around Hyde Park. Stations within 2 km of the Loop gain bikes in the morning, and the 30 recurring-deficit stations that close in recover worst (39% pooled vs 73% at 2–5 km). Table: `figures/sean_distance_bands.csv`.
+   ![Station map](figures/sean_station_map.png)
+7. Clustering (bonus). k-means on the shape of each station's daily curve gives three groups: 64 stations that recover by early evening (median full recovery 57%), 161 that recover slowly by midnight (39%), and 39 that keep losing bikes after 10 a.m. (19%), which also sit farther from the Loop.
 
 Limitations: trip data can't show whether a station actually ran empty or was restocked by truck, dockless e-bike trips aren't counted, and the data cover one month.
 
