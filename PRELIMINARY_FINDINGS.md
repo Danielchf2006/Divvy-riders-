@@ -1,6 +1,6 @@
 # Preliminary Findings
 
-*Last updated Nov 22, 2026. Numbers come from `notebooks/01_data_cleaning.ipynb`, `notebooks/02_station_recovery_sean.ipynb`, and Mimi's section of the check-in.*
+*Last updated Nov 25, 2026. Numbers come from `notebooks/01_data_cleaning.ipynb`, `notebooks/02_station_recovery_sean.ipynb`, and Mimi's section of the check-in.*
 
 ## Data cleaning
 
@@ -39,6 +39,9 @@ Weekend morning deficits are barely made up later in the day, so weekend riding 
 6. Location matters. Recurring deficits are concentrated 2–5 km from the Loop (44% of stations there, vs 18% within 2 km and 5% beyond 10 km), mostly to the north and northwest, with a smaller group around Hyde Park. Stations within 2 km of the Loop gain bikes in the morning, and the 30 recurring-deficit stations that close in recover worst (39% pooled vs 73% at 2–5 km). Table: `figures/sean_distance_bands.csv`.
    ![Station map](figures/sean_station_map.png)
 7. Clustering (bonus). k-means on the shape of each station's daily curve gives three groups: 64 stations that recover by early evening (median full recovery 57%), 161 that recover slowly by midnight (39%), and 39 that keep losing bikes after 10 a.m. (19%), which also sit farther from the Loop.
+8. Recovery falls through the week. At recurring-deficit stations, 51% of deficit days fully recover on Mondays but only 28% on Fridays, when just 22% of the morning loss comes back (vs 82% on Mondays). September has only 3 non-holiday Mondays and 4 Fridays. Table: `figures/sean_recovery_by_weekday.csv`.
+   ![Recovery by weekday](figures/sean_recovery_by_weekday.png)
+9. Which stations lose bikes is stable across the month: deficit-day rates in Sept 1–15 and Sept 16–30 correlate 0.84, and 202 of the top 264 stations are in the top 264 in both halves. Each station's recovery rate is noisier (correlation 0.44), so station-level rates and clusters are rough.
 
 Limitations: trip data can't show whether a station actually ran empty or was restocked by truck, dockless e-bike trips aren't counted, and the data cover one month.
 

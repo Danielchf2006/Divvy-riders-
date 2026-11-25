@@ -1,0 +1,6 @@
+weekday,days,station_days,stations,median_recovery,full_recovery_rate,pooled_recovery
+Monday,3,681,262,1.0,0.51,0.817
+Tuesday,5,1225,264,0.75,0.425,0.767
+Wednesday,5,1169,264,0.6,0.39,0.616
+Thursday,4,895,264,0.571,0.375,0.577
+Friday,4,868,261,0.2,0.282,0.218
